@@ -1,0 +1,19 @@
+name: My Second Pipeline
+on:
+  push:
+    branches:
+      -main;
+
+jobs:
+  basic:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Step 1
+        run: echo "Step 1 running"
+
+      - name: Print Step 2
+        run: echo "Step 2 running"
+
+      - name: Check system
+        run: uname -a
