@@ -1,0 +1,14 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Minimal Node.js app for GitHub Actions CI/CD",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "build": "echo \"Build completed\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
